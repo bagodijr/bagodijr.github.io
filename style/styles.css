@@ -5,7 +5,6 @@
   color: #62edfd;
   justify-content: center;
   display: flex;
-  align-items: center;
   border-radius: 20px;
   cursor: pointer;
   padding: 10px 20px !important;
@@ -13,6 +12,7 @@
   font-weight: 500;
   transition: all 0.6s ease-in-out;
   text-decoration: none;
+  font-weight: 200;
 }
 
 .btn-contato:hover {
@@ -28,6 +28,7 @@ body {
 .text {
   width: 50vh;
   text-align: center;
+  font-weight: 200;
 }
 
 .text > p {
@@ -38,7 +39,7 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding: 5vh;
   align-items: center;
   gap: 100px;
 }
