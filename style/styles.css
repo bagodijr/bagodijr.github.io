@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .btn-contato {
-  border: 2px solid #6db8ff;
-  color: #6db8ff;
+  border: 2px solid #62edfd;
+  color: #62edfd;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -16,12 +16,13 @@
 }
 
 .btn-contato:hover {
-  background: #6db8ff;
+  background: #62edfd;
   color: #ffffff;
 }
 
 body {
   height: 100vh;
+  background-color: #000000 !important;
 }
 
 .text {
@@ -39,8 +40,22 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 100px;
 }
 
 .content > img {
   width: 45vh;
+}
+
+.navbar {
+  background-color: #000000;
+}
+.text > a {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .text > a {
+    display: block;
+  }
 }
