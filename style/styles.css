@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.btn-contato {
+  border: 2px solid #6db8ff;
+  color: #6db8ff;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 10px 20px !important;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.6s ease-in-out;
+  text-decoration: none;
+}
+
+.btn-contato:hover {
+  background: #6db8ff;
+  color: #ffffff;
+}
+
+body {
+  height: 100vh;
+}
+
+.text {
+  width: 50vh;
+  text-align: center;
+}
+
+.text > p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content > img {
+  width: 45vh;
+}
